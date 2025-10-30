@@ -1,7 +1,7 @@
 /* Estilos adicionales para la página de ordenes */
     .order_section {
       padding: 90px 0 120px 0;
-      background-color: #cecfc6;
+        background-color: #575c4b;
     }
     
     .order_section .heading_container {
@@ -49,7 +49,7 @@
       padding: 12px 55px;
       background-color: #ffbe33;
       color: #ffffff;
-      border-radius: 30px;
+      border-radius: 10px;
       transition: all 0.3s;
       border: 1px solid #ffbe33;
       font-weight: 600;
@@ -86,5 +86,3 @@
         transform: translateY(0);
       }
     }
-
-    
