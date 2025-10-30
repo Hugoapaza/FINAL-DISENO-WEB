@@ -1,7 +1,8 @@
     /* Estilos personalizados para el menú completo */
     .menu_hero {
       padding: 80px 0 60px 0;
-      background: linear-gradient(135deg, #ffbe33 0%, #ff9800 100%);
+      background: linear-gradient(135deg, #ffbe33 0%, #ff9800 100%); 
+      /* background-image: url('/images/Fondo1.jpg'); */
       color: white;
       text-align: center;
     }
@@ -67,7 +68,7 @@
     }
     
     .menu_item {
-      background: white;
+      background: white; 
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
