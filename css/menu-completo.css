@@ -234,6 +234,37 @@
       font-weight: 600;
       text-transform: uppercase;
     }
+
+    /* ======================= BOTN DE WHATSAPP==================== */
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.whatsapp-button i {
+  font-size: 30px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
+}
+
+.icono-whatsapp .whatsapp-button{
+    text-decoration: none;
+}
     
     @media (max-width: 768px) {
       .menu_hero h1 {

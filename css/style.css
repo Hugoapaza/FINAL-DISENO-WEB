@@ -1034,6 +1034,10 @@ a:focus {
 }´
 
 /* ======================= BOTN DE WHATSAPP==================== */
+.icono-whatsapp{
+  position: fixed;
+}
+
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -1052,7 +1056,7 @@ a:focus {
 }
 
 .whatsapp-button i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .whatsapp-button:hover {
